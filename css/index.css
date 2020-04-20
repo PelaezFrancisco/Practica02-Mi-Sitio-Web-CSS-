@@ -1,0 +1,21 @@
+body{
+    margin: 2em;
+    background-color: rgb(71, 98, 176);
+}
+
+h1{
+    border: 2px red solid;
+    line-height: 2cm;
+    font-size: 2em;
+}
+p{
+    word-spacing: 0.5em;
+    font-size: 100%;
+}
+a{
+    font-size: 12pt;
+    
+}
+.parafo1{
+    color: blue;
+}
