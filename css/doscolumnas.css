@@ -229,3 +229,27 @@ td{
 }
 /*
 */
+.input1{
+  margin-left: 28px;
+  width: 379px;
+}
+.input2{
+  margin-left: 44px;
+  width: 379px;
+}
+.boton{
+  margin-left: 300px;
+  width: 100px;
+}
+.sectionz{
+  width: 50%;
+  border: double black;
+  margin-bottom: 15px;
+  margin-right: 250px;
+  background:-webkit-radial-gradient(center, circle, #ababb0, #ababac);
+  height: 500px;
+  position: relative;
+  top: -510px;
+  float: right;
+  display:block;
+}
