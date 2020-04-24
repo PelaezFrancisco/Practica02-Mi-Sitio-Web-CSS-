@@ -1,0 +1,80 @@
+.topnav a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+}
+.topnav a:hover {
+  color: white;
+}
+.ch1{
+  font-size: 24pt;
+  font-style: oblique;
+  text-align: left;
+}
+.aside1{
+  font-size: 16pt;
+  font-style: oblique;
+  text-align: left;
+}
+.parafo1{
+  font-size: 14pt;
+  font-style: normal;
+  text-align: left;
+}
+.aside2{
+  font-size: 16pt;
+  font-style: oblique;
+  text-align: left;
+}
+.ch2{
+  font-size: 24pt;
+  font-style: oblique;
+  text-align: left;
+}
+.aside2{
+  font-size: 16pt;
+  font-style: oblique;
+  text-align: left;
+}
+.parafo2{
+  font-size: 14pt;
+  font-style: normal;
+  text-align: left;
+}
+.aside3{
+  font-size: 16pt;
+  font-style: oblique;
+  text-align: left;
+}
+.ch3{
+  font-size: 24pt;
+  font-style: oblique;
+  text-align: left;
+}
+.p1{
+  font-size: 12pt;
+  font-style: italic;
+}
+.p2{
+  font-size: 12pt;
+  font-style: italic;
+}
+.p3{
+  font-size: 12pt;
+  font-style: italic;
+}
+.p4{
+  font-size: 12pt;
+  font-style: italic;
+}
+.pvideo{
+  font-size: 24pt;
+  font-style:italic;
+  text-align: left;
+}
+.pvideo1{
+  font-size: 16pt;
+  font-style: normal;
+  text-align: left;
+}

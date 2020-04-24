@@ -25,20 +25,14 @@ body{
 .topnav a {
   border: double black;
   display: block;
-  color: black;
-  text-align: center;
   margin-left: 10%;
   padding: 14px 0px;
-  text-decoration: none;
-  font-size: 14px;
-
   background-color:#8c938f;
   width: 80%;
 }
 
 .topnav a:hover {
   background-color: #505354;
-  color: white;
 }
 
 /*
@@ -57,25 +51,17 @@ body{
   display:block;
 }
 .ch1{
-  font-size: 24pt;
   font-style: oblique;
   display: block;
-  text-align: left;
   margin-left: 5%;
 }
 .aside1{
-  font-size: 16pt;
-  font-style: oblique;
   display: block;
-  text-align: left;
   margin-left: 5%;
 }
 
 .parafo1{
-  font-size: 14pt;
-  font-style: normal;
   display: block;
-  text-align: left;
   margin-left: 5%;
 }
 .img1{
@@ -84,10 +70,7 @@ body{
   height: 200px;
 }
 .aside2{
-  font-size: 16pt;
-  font-style: oblique;
   display: block;
-  text-align: left;
   margin-left: 5%;
   margin-top: 3%;
 }
@@ -107,25 +90,16 @@ body{
   display:block;
 }
 .ch2{
-  font-size: 24pt;
-  font-style: oblique;
   display: block;
-  text-align: left;
   margin-left: 5%;
 }
 .aside2{
-  font-size: 16pt;
-  font-style: oblique;
   display: block;
-  text-align: left;
   margin-left: 5%;
 }
 
 .parafo2{
-  font-size: 14pt;
-  font-style: normal;
   display: block;
-  text-align: left;
   margin-left: 5%;
 }
 .img2{
@@ -135,10 +109,7 @@ body{
 
 }
 .aside3{
-  font-size: 16pt;
-  font-style: oblique;
   display: block;
-  text-align: left;
   margin-left: 5%;
   margin-top: 3%;
 }
@@ -158,10 +129,7 @@ body{
   display:block;
 }
 .ch3{
-  font-size: 24pt;
-  font-style: oblique;
   display: block;
-  text-align: left;
   margin-left: 5%;
 }
 .article3{
@@ -190,26 +158,11 @@ td{
   left: 100px;
 }
 .pvideo{
-  font-size: 24pt;
-  font-style: oblique;
   display: block;
-  text-align: left;
-  margin-left: 0%;
-
-}
-.pvideo{
-  font-size: 24pt;
-  font-style:italic;
-  display: block;
-  text-align: left;
   margin-left: 5%;
-
 }
 .pvideo1{
-  font-size: 16pt;
-  font-style: normal;
   display: block;
-  text-align: left;
   margin-left: 5%;
 
 }

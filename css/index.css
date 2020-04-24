@@ -4,7 +4,7 @@
 
 header{
   height: 250px;
-  background-color: #7da198;
+  background-color: #91a19d;
   margin-bottom: -200px;
 }
 
@@ -49,7 +49,7 @@ a{
 .Upheader{
     width: auto;
     margin-bottom: -100px;
-    background-color: #a998b1;
+    background-color: #656565;
 }
 /*Ubicacion de logo */
 .header1{
@@ -151,14 +151,14 @@ a{
   padding: 14px 1px;
   text-decoration: none;
   font-size: 14px;
-  background-color: #61CEFF;
+  background-color:#8c938f;
   width: 8.9%;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #58E89E;
-  color: black;
+  background-color: #505354;
+  color: white;
 }
 h3{
   width: 250px;
@@ -335,6 +335,7 @@ Footer1
 }
 .imgtwitter{
   border-radius: 50%;
+  border: hidden;
   position: relative;
   top: -8px;
   left: 650px;
