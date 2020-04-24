@@ -216,7 +216,6 @@ Seccion Bienvenidos
   top: -320px;
   left: 800px;
   width: 300px;
-  height: 200;
 }
 /*
 Seccion Propositos
@@ -240,7 +239,6 @@ Seccion Propositos
   top: -250px;
   left: 800px;
   width: 400px;
-  height: 300;
 }
 .aside3{
 
@@ -269,7 +267,6 @@ Seccion Propositos
 .section3 .article3 .video1{
   margin-left: 20%;
   width: 60%;
-  height: 240;
 
 }
 /*
@@ -298,7 +295,6 @@ Equipo
   top: 20px;
   left: 600px;
   width: 200px;
-  height: 150;
 }
 .aside4{
   border-style: solid;
@@ -328,7 +324,6 @@ Footer1
   width: 100%;
   font-size: 12pt;
   margin-top: 20px;
-  margin-left: 0;
   margin-bottom: 15px;
   display: flex;
   justify-content: center;
