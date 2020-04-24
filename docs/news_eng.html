@@ -4,24 +4,32 @@
    <title>Ecuador News</title>
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="../css/doscolumnas.css" media="screen" />
 </head>
 
-<body style="background-color:rgba(180, 182, 182, 0.637);">
+<body>
    <header>
-      <a href="../index.html"><img src="../images/Logonews.png" alt="Logo News" /></a>
-      <nav>
+      <a href="../index.html"><img src="../images/Logonews.png" alt="Logo News" class="logoEcuador"></a>
+      <nav class="navigator">
           <ul>
+            <div class="topnav">
+
               <li><a href="casos.html">Casos Confirmados</a></li>
-              <li><a href="resol_esp.html">Resoluciones (Español)</a></li>
-              <li><a href="news_esp.html">Noticias (Español)</a></li>
+              <li><a href="resol_esp.html">Resoluciones(Esp)</a></li>
+              <li><a href="news_esp.html">Noticias (Esp)</a></li>
               <li><a href="resol_eng.html">Resolutions (English)</a></li>
               <li><a href="news_eng.html">News (English)</a></li>
               <li><a href="about.html">Acerca De...</a></li>
               <li><a href="chillhub.html">ChillHub</a></li>
               <li><a href="sources.html">Fuente de Noticias</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="sources.html">Contact</a></li>
+
+            </div>
           </ul>
+
       </nav>
-       
+
    </header>
 
    <!--
@@ -33,51 +41,68 @@
       <a href="docs/news_eng.html"><img src="images/news_eng.png" alt="Ecuadorian News" /></a>
       <a href="docs/about.html"><img src="images/about.png" alt="Acerca de" /></a>
       <a href="chillhub.html"><img src="images/chillHub.png" alt="ChillHub" /></a>
-      <a href="docs/sources.html"><img src="images/source.png" alt="Sources" /></a>  
+      <a href="docs/sources.html"><img src="images/source.png" alt="Sources" /></a>
    </nav>
 
+   2 COLUMNAS
    -->
    <main>
-    <section>
-      <h1></h1>
-      <aside>News</aside>
-      <article>
-        <p> This is a a section especifically to post news about the Pandemic Crisis, here in Ecuador. It is safe to say that the job here at our
+    <section class="section1">
+      <h1 class="ch1">News (English)</h1>
+      <aside class="aside1">News</aside>
+      <article class="article1">
+        <p class="parafo1"> This is a a section especifically to post news about the Pandemic Crisis, here in Ecuador. It is safe to say that the job here at our
             page is to inform in a timelly and carefull matter.
         </p>
       </article>
-      <img src="../images/newse1.png" alt="quienesomos" width="100" height="80">
-      <aside>That's what we are :) </aside>
+      <img src="../images/newse1.png" alt="quienesomos"class="img1">
+      <aside class="aside2">That's what we are :) </aside>
     </section>
 
-    <section>
-      <h2>What kind of news are they?</h2>
-      <article>
-        <p>
+    <section class="section2">
+      <h2 class="ch2">What kind of news are they?</h2>
+      <article class="article2">
+        <p class="parafo2">
         Mostly there are going to be a lot of news about the current pandemic. News from Ecuador and other countrys.
         </p>
-        <img src="../images/newse2.png" alt="Welcome" width="100" height="80">
-        <aside>Our objetives are aligned with our goals</aside>
+        <img src="../images/newse2.png" alt="Welcome"class="img2">
+        <aside class="aside3">Our objetives are aligned with our goals</aside>
       </article>
-      
+
     </section>
     <br>
-    <section>
-        <article>
-
-
-            <iframe width="640" height="360"
-            src="https://www.youtube.com/embed/watch?v=w2jZNwvxUTc"
-            frameborder="0" allowfullscreen>
+    <section class="section3">
+        <article class="article3">
+            <p class="pvideo">Coronavirus Explanation</p>
+            <p class="pvideo1"> What actually is the coronavirus? How might it affect you? What can you do to prevent it?
+              <br>The BBC's Laura Foster explains everything you need to know – in just one minute.</p>
+            <iframe
+            src="https://www.youtube.com/embed/ArFQdvF8vDE"
+            frameborder="0" allowfullscreen class="youtube">
         </iframe>
         </article>
       </section>
   </main>
-    
-   <footer>
-    Juan Francisco Pelaez Becerra &#8226; Universidad Politecnica Salesiana &#8226;  
-    <a href="mailto:jpelaezb1@est.ups.edu.ec"> jpelaezb1@est.ups.edu.ec</a> &#8226;  <a href="tel:+593939082637">+5939382637</a> &#8226; 
-    Todos los derechos reservados &copy;
-   </footer>
+
+  <section class="section5">
+    <footer class="footer1">
+      <p class="autor">
+       Juan Francisco Pelaez Becerra &#8226; Universidad Politecnica Salesiana
+     </p>
+
+
+     <p class="emailfoot">Mail: <a href="mailto:jpelaezb1@est.ups.edu.ec"> jpelaezb1@est.ups.edu.ec</a></p>
+
+
+     <p class="telf">Telefono: <a href="tel:+593939082637">+5939382637</a></p>
+
+     <p class="copyrigth">Todos los Derechos Reservados &copy;</p>
+
+    </footer>
+  <a href="https://www.instagram.com/francisco_pelaez0/">
+    <img src="../images/instagram.png" alt="Instagram" class="imginst"></a>
+    <a href="https://twitter.com/franpel_0">
+    <img src="../images/twitter.png" alt="Twitter" class="imgtwitter"></a>
+  </section>
 </body>
 </html>

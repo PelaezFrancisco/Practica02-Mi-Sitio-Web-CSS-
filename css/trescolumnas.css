@@ -1,0 +1,282 @@
+body{
+  background-color: #474649 ;
+}
+.logoEcuador{
+  position: relative;
+  left: 175px;
+  top: 20px;
+}
+.navigator{
+  border: solid black;
+  position: relative;
+  top: 40px;
+  width: 325px;
+  background-color: #c7c8cb;
+}
+.topnav {
+  position: relative;
+  border: solid black;
+  margin-left: -30px;
+  width: 300px;
+  background-color: #c4cfcc;
+  padding: 2em 0em;
+}
+.topnav a {
+  border: double black;
+  display: block;
+  color: black;
+  text-align: center;
+  margin-left: 10%;
+  padding: 14px 0px;
+  text-decoration: none;
+  font-size: 14px;
+
+  background-color:#8c938f;
+  width: 80%;
+}
+
+.topnav a:hover {
+  background-color: #505354;
+  color: white;
+}
+
+/*
+-------------------------------Seccion1----------------------------------------
+*/
+.section1{
+  width: 50%;
+  border: double black;
+  margin-bottom: 15px;
+  margin-right: 390px;
+  background:-webkit-radial-gradient(center, circle, #ababb0, #ababac);
+  height: 600px;
+  position: relative;
+  top: -560px;
+  float: right;
+  display:block;
+}
+.ch1{
+  font-size: 24pt;
+  font-style: oblique;
+  display: block;
+  text-align: left;
+  margin-left: 5%;
+}
+.aside1{
+  font-size: 16pt;
+  font-style: oblique;
+  display: block;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.parafo1{
+  font-size: 14pt;
+  font-style: normal;
+  display: block;
+  text-align: left;
+  margin-left: 5%;
+}
+.img1{
+  margin-left: 5%;
+  width: 50%;
+  height: 40%;
+}
+.aside2{
+  font-size: 16pt;
+  font-style: oblique;
+  display: block;
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+/*
+--------------------------------Seccion2-------------------------------------
+*/
+.section2{
+  width: 50%;
+  border: double black;
+  margin-bottom: 15px;
+  margin-right: 390px;
+  background:-webkit-radial-gradient(center, circle, #ababb0, #ababac);
+  height: 600px;
+  position: relative;
+  top: -560px;
+  float: right;
+  display:block;
+}
+.ch2{
+  font-size: 24pt;
+  font-style: oblique;
+  display: block;
+  text-align: left;
+  margin-left: 5%;
+}
+.aside2{
+  font-size: 16pt;
+  font-style: oblique;
+  display: block;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.parafo2{
+  font-size: 14pt;
+  font-style: normal;
+  display: block;
+  text-align: left;
+  margin-left: 5%;
+}
+.img2{
+  margin-left: 5%;
+  width: 40%;
+  height: 30%;
+}
+.aside3{
+  font-size: 16pt;
+  font-style: oblique;
+  display: block;
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+/*
+--------------------------------Seccion 3 // Tabla-----------------------------
+*/
+.section3{
+  width: 22%;
+  border: double black;
+  margin-bottom: 15px;
+  margin-right: 390px;
+  background:-webkit-radial-gradient(center, circle, #ababb0, #ababac);
+  height: 600px;
+  position: relative;
+  top: -1800px;
+  left: 360px;
+  float: right;
+  display:block;
+}
+.ch3{
+  font-size: 24pt;
+  font-style: oblique;
+  display: block;
+  text-align: left;
+  margin-left: 5%;
+}
+.article3{
+
+}
+.table1{
+  margin: 2px;
+  width: 600px;
+  height: 80%;
+}
+tr{
+  /*
+  display: flex;
+  text-align: justify;
+  */
+}
+td{
+
+}
+
+.divaudio1{
+  margin-left: 15px;
+  width: 100px;
+}
+.p1{
+  font-size: 12pt;
+  font-style: italic;
+  width: 300px;
+}
+.divaudio2{
+  margin-left: 15px;
+  width: 100px;
+}
+.p2{
+  font-size: 12pt;
+  font-style: italic;
+  width: 300px;
+}
+.divaudio3{
+  margin-left: 15px;
+  width: 100px;
+}
+.p3{
+  font-size: 12pt;
+  font-style: italic;
+  width: 300px;
+}
+.divaudio4{
+  margin-left: 15px;
+  width: 100px;
+}
+.p4{
+  font-size: 12pt;
+  font-style: italic;
+  width: 300px;
+}
+/*
+---------------------Footer------------------------------------
+*/
+.section5{
+  width: 100%;
+  margin-bottom: 15px;
+  background:-webkit-radial-gradient(center, circle, #ababb0, #ababac);
+  height: 200px;
+  position: relative;
+  top: -1150px;
+  float: right;
+  display:block;
+}
+.footer1{
+
+  width: 100%;
+  font-size: 12pt;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+.imginst{
+  border-radius: 50%;
+  position: relative;
+  top: -20px;
+  left: 600px;
+  width: 75px;
+  height: 75px;
+}
+.imgtwitter{
+  border-radius: 50%;
+  position: relative;
+  top: -8px;
+  left: 650px;
+  width: 100px;
+  height: 100px;
+}
+.emailfoot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.telf{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.autor{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyrigth{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*
+*/

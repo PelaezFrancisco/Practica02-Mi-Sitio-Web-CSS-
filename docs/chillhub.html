@@ -4,24 +4,33 @@
    <title>Ecuador News</title>
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../css/trescolumnas.css" media="screen" />
 </head>
 
-<body style="background-color:rgba(180, 182, 182, 0.637);">
+<body>
    <header>
-      <a href="../index.html"><img src="../images/Logonews.png" alt="Logo News" /></a>
-      <nav>
-          <ul>
-              <li><a href="casos.html">Casos Confirmados</a></li>
-              <li><a href="resol_esp.html">Resoluciones (Español)</a></li>
-              <li><a href="news_esp.html">Noticias (Español)</a></li>
-              <li><a href="resol_eng.html">Resolutions (English)</a></li>
-              <li><a href="news_eng.html">News (English)</a></li>
-              <li><a href="about.html">Acerca De...</a></li>
-              <li><a href="chillhub.html">ChillHub</a></li>
-              <li><a href="sources.html">Fuente de Noticias</a></li>
-          </ul>
-      </nav>
-       
+     <a href="../index.html"><img src="../images/Logonews.png" alt="Logo News" class="logoEcuador"></a>
+     <nav class="navigator">
+         <ul>
+           <div class="topnav">
+
+             <li><a href="casos.html">Casos Confirmados</a></li>
+             <li><a href="resol_esp.html">Resoluciones(Esp)</a></li>
+             <li><a href="news_esp.html">Noticias (Esp)</a></li>
+             <li><a href="resol_eng.html">Resolutions (English)</a></li>
+             <li><a href="news_eng.html">News (English)</a></li>
+             <li><a href="about.html">Acerca De...</a></li>
+             <li><a href="chillhub.html">ChillHub</a></li>
+             <li><a href="sources.html">Fuente de Noticias</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="sources.html">Contact</a></li>
+
+           </div>
+         </ul>
+
+     </nav>
+
+
    </header>
 
    <!--
@@ -33,54 +42,93 @@
       <a href="docs/news_eng.html"><img src="images/news_eng.png" alt="Ecuadorian News" /></a>
       <a href="docs/about.html"><img src="images/about.png" alt="Acerca de" /></a>
       <a href="chillhub.html"><img src="images/chillHub.png" alt="ChillHub" /></a>
-      <a href="docs/sources.html"><img src="images/source.png" alt="Sources" /></a>  
+      <a href="docs/sources.html"><img src="images/source.png" alt="Sources" /></a>
    </nav>
 
    -->
-   
+
    <main>
-    <section>
-      <h1>ChillHub</h1>
-      <aside>Que es ChillHub?</aside>
-      <article>
-        <p> Es una seccion de la pagina en la que tratamos de rejalarnos sobre todo el estress que significa esta pandemia, nos enfocamos
+
+     <!--Seccion1 -->
+    <section class="section1">
+      <h1 class="ch1">ChillHub</h1>
+      <aside class="aside1">Que es ChillHub?</aside>
+      <article class="article1">
+        <p class="parafo1"> Es una seccion de la pagina en la que tratamos de rejalarnos sobre todo el estress que significa esta pandemia, nos enfocamos
             en relajarnos y pensar que algun rato esto va a parar. </p>
       </article>
-      <img src="../images/chillhub1.png" alt="quienesomos" width="600" height="320">
-      <aside>Asi que esos somos :) </aside>
+      <img src="../images/chillhub1.png" alt="quienesomos" width="600" height="320" class="img1">
+      <aside class="aside2">Asi que esos somos :) </aside>
     </section>
 
-    <section>
-      <h2>Que tiene?</h2>
-      <article>
-        <p>
+    <!--Seccion2 -->
+
+    <section class="section2">
+      <h2 class="ch2">Que tiene?</h2>
+      <article class="article2">
+        <p class="parafo2">
         Es basicamente, una de mis canciones favoritas en loop con una chevere imagen :D
         </p>
-        <img src="../images/chillhub2.png" alt="Welcome" width="300" height="240">
-        <aside>Nuestros objetivos siempre alineados con nuestras metas </aside>
+        <img src="../images/chillhub2.png" alt="Welcome" width="300" height="240" class="img2">
+        <aside class="aside3">Nuestros objetivos siempre alineados con nuestras metas </aside>
       </article>
-      
     </section>
 
-    <section>
-        <h2>Musica Chill ( ͡° ͜ʖ ͡°)</h2>
-        <article>
+    <!--Seccion3 -->
+
+    <section class="section3">
+        <h2 class="ch2">Musica Chill ( ͡° ͜ʖ ͡°)</h2>
+        <article class="article3">
             <br>
-            <audio controls>
-                
-                <source src="../audios/ambientmusic.mp3" type="audio/mpeg">
-              
+
+              <div class="divaudio1">
+                <p class="p1">Mask Off - Future</p>
+                <audio controls>
+                <source src="../audios/Future.mp3" type="audio/mpeg" class="audio1">
+              </div>
+              <div class="divaudio2">
+                <p class="p2">Congratulations - Post Malone ft.Quavo</p>
+                <audio controls>
+                <source src="../audios/Congratulations.mp3" type="audio/mpeg" class="audio2">
+              </div>
+              <div class="divaudio3">
+                <p class="p3">Sunflower - Rex Orange Country</p>
+                <audio controls>
+                <source src="../audios/Sunflower.mp3" type="audio/mpeg" class="audio3">
+              </div>
+              <div class="divaudio4">
+                <p class="p4">Ultimately - Khai Dreams</p>
+                <audio controls>
+                <source src="../audios/Ultimatly.mp3" type="audio/mpeg" class="audio4">
+              </div>
+
+
               </audio>
-             
+
         </article>
-        <br>
+
     </section>
   </main>
 
-   <footer>
-    Juan Francisco Pelaez Becerra &#8226; Universidad Politecnica Salesiana &#8226;  
-    <a href="mailto:jpelaezb1@est.ups.edu.ec"> jpelaezb1@est.ups.edu.ec</a> &#8226;  <a href="tel:+593939082637">+5939382637</a> &#8226; 
-    Todos los derechos reservados &copy;
-   </footer>
+  <section class="section5">
+    <footer class="footer1">
+      <p class="autor">
+       Juan Francisco Pelaez Becerra &#8226; Universidad Politecnica Salesiana
+     </p>
+
+
+     <p class="emailfoot">Mail: <a href="mailto:jpelaezb1@est.ups.edu.ec"> jpelaezb1@est.ups.edu.ec</a></p>
+
+
+     <p class="telf">Telefono: <a href="tel:+593939082637">+5939382637</a></p>
+
+     <p class="copyrigth">Todos los Derechos Reservados &copy;</p>
+
+    </footer>
+  <a href="https://www.instagram.com/francisco_pelaez0/">
+    <img src="../images/instagram.png" alt="Instagram" class="imginst"></a>
+    <a href="https://twitter.com/franpel_0">
+    <img src="../images/twitter.png" alt="Twitter" class="imgtwitter"></a>
+  </section>
 </body>
 </html>

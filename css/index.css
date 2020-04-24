@@ -1,21 +1,365 @@
+*{
+
+}
+
+header{
+  height: 250px;
+  background-color: #7da198;
+  margin-bottom: -200px;
+}
+
 body{
     margin: 2em;
-    background-color: rgb(71, 98, 176);
+    background-color: #436667;
 }
 
 h1{
-    border: 2px red solid;
-    line-height: 2cm;
+
+    width: 250px;
     font-size: 2em;
+    margin-left: 10%;
+    line-height: 2cm;
+    padding-left: 20px;
+
+
 }
+h2{
+
+    width: 250px;
+    font-size: 2em;
+    margin-left: 10%;
+    line-height: 2cm;
+    padding-left: 20px;
+}
+
 p{
-    word-spacing: 0.5em;
+    word-spacing: 0.2em;
+
     font-size: 100%;
+
 }
 a{
     font-size: 12pt;
-    
+    width: 148px;
+    border: solid black 1.5px;
+    font-style: oblique;
+    margin: 5px
 }
+
+.Upheader{
+    width: auto;
+    margin-bottom: -100px;
+    background-color: #a998b1;
+}
+/*Ubicacion de logo */
+.header1{
+  width: auto;
+
+}
+
+.header1 .logo1{
+  position: relative;
+
+  padding: 10px 10px 10px 20px;
+}
+
+.header1 .buscador1{
+    position: relative;
+    top: -120px;
+    bottom: 20px;
+    left: 400px;
+    right: auto;
+    width: 300px;
+
+
+    box-sizing: border-box;
+}
+
+.header1 .buscador1 #buscador2{
+    width: 300px;
+    border: 1.5px solid #000000;
+    padding: 8px 10px;
+    box-sizing: border-box;
+}
+
+.contacto1{
+
+  position: relative;
+  top: -175px;
+  bottom: 20px;
+  left: 800px;
+  right: auto;
+  width: 300px;
+  height: 80px;
+}
+.contacto1 .persona1 {
+  position: relative;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  width: 75px;
+  height: 60px;
+}
+.contacto1 .persona1 #perimg{
+    width: 75px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.contacto1 .email1 {
+  position: relative;
+  top: -54px;
+  left: 100px;
+  width: 75px;
+  height: 50px;
+
+}
+.contacto1 .email1 #emailimg{
+  width: 75px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.contacto1 .lenguage1 {
+  position: relative;
+  top: -110px;
+  left: 200px;
+  width: 75px;
+  height: 60px;
+}
+.contacto1 .lenguage1 #lenimg{
+  width: 75px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #c4cfcc;
+  padding: 2em 2em;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 1px;
+  text-decoration: none;
+  font-size: 14px;
+  background-color: #61CEFF;
+  width: 8.9%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #58E89E;
+  color: black;
+}
+h3{
+  width: 250px;
+  font-size: 1.5em;
+  margin-left: 40%;
+  line-height: 2cm;
+  padding-left: 20px;
+}
+
+/*
+Seccion Bienvenidos
+*/
+.section1{
+    width: 100%;
+
+    margin-bottom: 15px;
+    /*background:-moz-radial-gradient(center, circle,  #8258FA, #58ACFA);*/
+    background:-webkit-radial-gradient(center, circle, #ababb0, #ababac);
+    height: 600px;
+    position: relative;
+    top: 40px;
+    float: right;
+    display:block;
+}
+.aside1{
+
+  width: 180px;
+  font-size: 1.2em;
+  margin-left: 11%;
+  line-height: 1cm;
+  padding-left: 20px;
+  font-style: italic;
+
+}
+
+.article1{
+  margin-bottom: -300px;
+}
+
 .parafo1{
-    color: blue;
+  width: 180px;
+  margin-left: 11%;
+  padding-left: 20px;
+}
+.imgbien{
+  position: relative;
+  top: -320px;
+  left: 800px;
+  width: 300px;
+  height: 200;
+}
+/*
+Seccion Propositos
+*/
+
+.section2{
+  width: 100%;
+  margin-bottom: 15px;
+  background:-webkit-radial-gradient(center, circle, #ababb0, #ababac);
+  height: 600px;
+  position: relative;
+  top: 70px;
+  float: right;
+  display:block;
+}
+.article2{
+    margin-bottom: 0px;
+}
+.imgbien2{
+  position: relative;
+  top: -250px;
+  left: 800px;
+  width: 400px;
+  height: 300;
+}
+.aside3{
+
+  width: 180px;
+  font-size: 1.2em;
+  margin-left: 11%;
+  line-height: 1cm;
+  padding-left: 20px;
+  font-style: italic;
+
+}
+/*Seccion Video*/
+.section3{
+  width: 100%;
+  margin-bottom: 15px;
+  background:-webkit-radial-gradient(center, circle, #ababb0, #ababac);
+  height: 700px;
+  position: relative;
+  top: 70px;
+  float: right;
+  display:block;
+}
+.article3{
+
+}
+.section3 .article3 .video1{
+  margin-left: 20%;
+  width: 60%;
+  height: 240;
+
+}
+/*
+Equipo
+*/
+.section4{
+  width: 100%;
+  margin-bottom: 15px;
+  background:-webkit-radial-gradient(center, circle, #ababb0, #ababac);
+  height: 500px;
+  position: relative;
+  top: 70px;
+  float: right;
+  display:block;
+}
+.article4{
+
+}
+.titEquipo{
+  font-size: 22pt;
+  margin-left: 45%;
+}
+.imgbien3{
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  left: 600px;
+  width: 200px;
+  height: 150;
+}
+.aside4{
+  border-style: solid;
+  font-size: 16pt;
+  width: 150px;
+  top: 50%;
+  left: 50%;
+  margin-top: 40px;
+  margin-left: 43%;
+}
+
+/*
+Footer1
+*/
+.section5{
+  width: 100%;
+  margin-bottom: 15px;
+  background:-webkit-radial-gradient(center, circle, #ababb0, #ababac);
+  height: 200px;
+  position: relative;
+  top: 70px;
+  float: right;
+  display:block;
+}
+.footer1{
+
+  width: 100%;
+  font-size: 12pt;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+.imginst{
+  border-radius: 50%;
+  position: relative;
+  top: -20px;
+  left: 600px;
+  width: 75px;
+  height: 75px;
+}
+.imgtwitter{
+  border-radius: 50%;
+  position: relative;
+  top: -8px;
+  left: 650px;
+  width: 100px;
+  height: 100px;
+}
+.emailfoot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.telf{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.autor{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyrigth{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
